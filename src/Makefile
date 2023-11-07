@@ -22,8 +22,8 @@ $(LIBNAME).a:
 # 	$(CC) $(FLAGS) -g s21_matrix.c
 # 	./a.out
 
-# debug: clean 
-# 	$(CC) $(FLAGS) -g s21_matrix.c
+debug: clean 
+	$(CC) $(FLAGS) -g s21_matrix.c
 	
 clean:
 	-rm -rf matrix gcov_report/ *.o *.html *.gcda *.gcno *.css *.a *.gcov *.info *.out *.cfg *.txt gcov_main test
